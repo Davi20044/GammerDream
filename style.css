@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	alignment-adjust:middle;
+}
+
+.menu ul li{
+	background-color: #7afdaa;
+	float: left;
+	width: 262px;
+	height: 40px;
+	display: inline-block;
+	text-align:center;
+	vertical-align:central;
+	font-size: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua";
+	font-weight: bold;
+	position: relative;
+	
+}
+
+.menu ul li:hover{
+	background-color: #87CEEB;
+}
+
+.menu ul{
+	padding: 0px;
+}
+
+.menu ul ul{
+	display: none;
+}
+
+.menu ul li:hover > ul{
+	display:block;
+}
+
+.menu ul ul ul{
+	margin-left: 201px;
+	top: 0px;
+	position: absolute;
+}
+
+.menu ul ul li:hover{
+	top: 0px;
+	background-color: #87CEEB;
+}
+
+.menu ul ul ul li:hover{
+	top: 0px;
+	background-color: #87CEEB;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+body{
+	background-color: #87CEEB;
+}
+a{
+	color: white;
+}
+.popup{
+				position: fixed;
+				top: 0; bottom: 0; 
+				left: 0; right:0;
+				margin: auto;
+				width: 300px;
+				height: 180px;
+				padding: 15px;
+				border: solid 1px #4c4d4f;
+				background: #f5812a;
+				display: none;
+			}
+
